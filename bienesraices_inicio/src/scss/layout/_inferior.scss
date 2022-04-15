@@ -20,24 +20,23 @@
 	}
 }
 
-.texto-emtrada{
-	a{
-	    color:$negro;
-
+.texto-entrada {
+	a {
+	    color: $negro;
 	}
-	h4{
+	h4 {
 		margin: 0;
 		line-height: 1.4;
   
-		&::after{
-			content: '';
+		&::after {
+			content:'';
 			display: block;
 			width: 15rem;
 			height: .5rem;
 			background-color: $verde;
 		}
 	}
-	span{
+	// span {
 
-	}
+	// }
 }
